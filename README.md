@@ -28,6 +28,7 @@ We decide datasets based on the bellow criteria.
 We decide deep learning models based on the bellow criteria.   
 
 1. Medical segmentation model
+![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/d17c4e55-9d9a-4cad-8e9b-f2e195852e94)
 
 2. General segmentation model
 
