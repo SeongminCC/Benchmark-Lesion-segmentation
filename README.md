@@ -62,8 +62,23 @@ All images were processed at a resolution of **224 (width) * 224 (height)**, reg
 | Breast Ultrasound (Benign Tumors)    | 261       | 88             | 88       |
 | Breast Ultrasound (Malignant Tumors) | 126       | 42             | 42       |
 
-For quantitative evaluation of the designed datasets and models, we utilized the **Dice Score (1)**, commonly used in semantic segmentation. The loss function employed was **DiceBCELoss (2)**, as all datasets involved binary segmentation of background and lesion areas.  
+For quantitative evaluation of the designed datasets and models, we utilized the **Dice Score(1)**, commonly used in semantic segmentation. The loss function employed was **DiceBCELoss(2)**, as all datasets involved binary segmentation of background and lesion areas.  
 
 $$ Dice Score = \frac{2 \times |Y \cap Y_{pred}|}{|Y \cup Y_{pred}|} \quad (1) $$
 
 $$ Dice BCELoss = (1 - Dice Score) + Binary Cross Entropy \quad (2) $$
+
+The training phase was designed using the PyTorch framework with a batch size of 8, learning rate of 1e-4, and weight decay of 1e-8. We employed the Adam optimizer and trained the model for a total of 100 epochs. During training, if the **Dice Score(2)** on the validation set does not improve for 20 epochs, the training is terminated, and the model saved up to that point is used for evaluation.
+
+## Results
+| Model          | ISIC Challenge | Wound   | Kvasir-SEG | CVC-ClinicDB | Breast Ultrasound (Benign Tumors) | Breast Ultrasound (Malignant Tumors) |
+|----------------|----------------|---------|------------|--------------|------------------------------------|--------------------------------------|
+| FCN (resnet101)       | 0.8477         | 0.8310  | 0.8779     | 0.8767       | 0.8128                             | 0.7531                               |
+| SegNet (resnet101)    | 0.8328         | 0.8470  | 0.8672     | 0.8422       | 0.8013                             | 0.7415                               |
+| DeepLab V3+ (resnet101) | 0.8519       | 0.8242  | 0.8616     | 0.8712       | 0.8350                             | 0.7720                               |
+| U-Net          | 0.8295         | 0.8304  | 0.7891     | 0.7622       | 0.7779                             | 0.6687                               |
+| U-Net++        | 0.8350         | 0.8100  | 0.7515     | 0.7289       | 0.7669                             | 0.7089                               |
+| ColonSegNet    | 0.8199         | 0.8377  | 0.7471     | 0.6896       | 0.7048                             | 0.6455                               |
+| FCBFormer      | 0.8642         | 0.8406  | 0.9830     | 0.8958       | 0.8583                             | 0.7974                               |
+| ESFPNet-L      | 0.8541         | 0.8077  | 0.9804     | 0.8709       | 0.8210                             | 0.8050                               |
+| ColonFormer    | 0.8456         | 0.8393  | 0.9773     | 0.8547       | 0.7945                             | 0.7984                               |
