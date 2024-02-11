@@ -1,2 +1,39 @@
-# Benchmark-Lesion-segmentation
-피부의 외상, 내시경, 초음파 영상을 총 6개의 의료영상 데이터셋으로 구성하여 9가지 다양한 모델을 평가하였습니다. 사용된 모델은 FCN, SegNet, DeepLab V3+, U-Net, U-Net++, ColonSegNet, FCBFormer, ESFPNet-L, ColonFormer입니다. 이를 통해 각 모델의 병변 영역 분할 성능을 비교하고 분석하였습니다.
+# Benchmark on Lesion Segmentations including SOTAR(2022-10)   
+
+When people who try to do lesion segmentation using deep learning model, It is difficult to decide deep learning model considering their type of medical images or their environment. And all the people in this situation have different needs respectively. *ex) efficiency, performance, low capacity, time, etc...*   
+
+So, we compared 9 deep learning models on 6 medical datasets for lesion segmentations in this research.   
+If you want to know more about this research, refer to our paper 
+
+[Publication]   
+Inho Jeong, Donghyeon Kim, Seongmin Jo, Hongryul Ahn. (2022).   
+*Comparison of lesion segmentation deep learning models according to medical image types* 한국정보과학회 학술발표논문집,   
+[This paper was within Top 10% in KSC2022 Thesis Contest](https://drive.google.com/file/d/182DaZQDwKJ5wJBJ4-_EpAW94AHy3uyS2/view)
+
+# Datasets   
+We decide datasets based on the bellow criteria.   
+
+1. scar/wound image   
+[ISIC-2017]()   
+[Foot Ulcer]()   
+2. endoscopic image(polyp)   
+[CVC-ClinincDB]()   
+[Kvasir-SEG]()   
+
+3. utlasound image   
+[benign/malignant Breast Ultrasound]()
+
+image[]
+
+# Models   
+We decide deep learning models based on the bellow criteria.   
+
+1. scar/wound image   
+[ISIC-2017](https://challenge.isic-archive.com/data/#2017)   
+[Foot Ulcer]()   
+2. endoscopic image(polyp)   
+[CVC-ClinincDB]()   
+[Kvasir-SEG]()   
+
+3. utlasound image   
+[benign/malignant Breast Ultrasound]()
