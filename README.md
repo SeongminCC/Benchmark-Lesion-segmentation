@@ -23,7 +23,6 @@ We decide datasets based on the bellow criteria.
 3. utlasound image   
 [benign/malignant Breast Ultrasound]()
 
-image[]
 
 # Models   
 We decide deep learning models based on the bellow criteria.   
