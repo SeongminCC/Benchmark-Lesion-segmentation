@@ -23,6 +23,7 @@ We decide datasets based on the bellow criteria.
 3. utlasound image   
 [benign/malignant Breast Ultrasound]()
 
+![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/bc10e997-a24a-4933-bd17-deeed4de0a1e)
 
 # Models   
 We decide deep learning models based on the bellow criteria.   
