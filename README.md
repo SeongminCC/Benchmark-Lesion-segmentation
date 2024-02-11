@@ -48,3 +48,22 @@ We decide deep learning models based on the bellow criteria.
        
 ![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/0c92d4dc-b05c-4337-81a9-f204b72c8417)
 
+
+# Experiments
+## Data Preprocessing
+All images were processed at a resolution of **224 (width) * 224 (height)**, regardless of their original resolutions. Except for the ISIC Challenge dataset, all datasets were split into train set, validation set, and test set in a ratio of **6:2:2**.
+
+| Dataset                              | Train set | Validation set | Test set |
+|--------------------------------------|-----------|----------------|----------|
+| ISIC Challenge                       | 2,000     | 150            | 150      |
+| Wound                                | 831       | 278            | 278      |
+| CVC-ClinicDB                         | 366       | 123            | 123      |
+| Kvasir-SEG                           | 600       | 200            | 200      |
+| Breast Ultrasound (Benign Tumors)    | 261       | 88             | 88       |
+| Breast Ultrasound (Malignant Tumors) | 126       | 42             | 42       |
+
+For quantitative evaluation of the designed datasets and models, we utilized the **Dice Score (1)**, commonly used in semantic segmentation. The loss function employed was **DiceBCELoss (2)**, as all datasets involved binary segmentation of background and lesion areas.  
+
+$$ Dice Score = \frac{2 \times |Y \cap Y_{pred}|}{|Y \cup Y_{pred}|} \quad (1) $$
+
+$$ Dice BCELoss = (1 - Dice Score) + Binary Cross Entropy \quad (2) $$
