@@ -27,12 +27,8 @@ We decide datasets based on the bellow criteria.
 # Models   
 We decide deep learning models based on the bellow criteria.   
 
-1. scar/wound image   
-[ISIC-2017](https://challenge.isic-archive.com/data/#2017)   
-[Foot Ulcer]()   
-2. endoscopic image(polyp)   
-[CVC-ClinincDB]()   
-[Kvasir-SEG]()   
+1. Medical segmentation model
 
-3. utlasound image   
-[benign/malignant Breast Ultrasound]()
+2. General segmentation model
+
+3. sotor segmentation model
