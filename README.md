@@ -15,10 +15,10 @@ We decide datasets based on the bellow criteria.
 
 1. scar/wound image   
 [ISIC-2017](https://challenge.isic-archive.com/data/#2017)   
-[Foot Ulcer]()   
+[Foot Ulcer](https://paperswithcode.com/dataset/dfuc2021)   
 2. endoscopic image(polyp)   
-[CVC-ClinincDB]()   
-[Kvasir-SEG]()   
+[CVC-ClinincDB](https://paperswithcode.com/dataset/cvc-clinicdb)   
+[Kvasir-SEG](https://paperswithcode.com/dataset/kvasir-seg)   
 
 3. utlasound image   
 [benign/malignant Breast Ultrasound]()
