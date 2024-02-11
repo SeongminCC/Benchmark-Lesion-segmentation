@@ -82,3 +82,7 @@ The training phase was designed using the PyTorch framework with a batch size of
 | FCBFormer      | 0.8642         | 0.8406  | 0.9830     | 0.8958       | 0.8583                             | 0.7974                               |
 | ESFPNet-L      | 0.8541         | 0.8077  | 0.9804     | 0.8709       | 0.8210                             | 0.8050                               |
 | ColonFormer    | 0.8456         | 0.8393  | 0.9773     | 0.8547       | 0.7945                             | 0.7984                               |
+
+
+
+![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/448d1394-695e-4f55-803d-bb4e9005d1ee)
