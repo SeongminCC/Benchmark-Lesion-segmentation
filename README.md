@@ -28,14 +28,17 @@ We decide datasets based on the bellow criteria.
 We decide deep learning models based on the bellow criteria.   
 
 1. Medical segmentation model
-   
+   - [UNet](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical﻿)
+   - [UNet++](﻿https://paperswithcode.com/paper/unet-a-nested-u-net-architecture-for-medical)
+   - [ColonSegNet](﻿https://paperswithcode.com/paper/real-time-polyp-detection-localisation-and)  
+     
   ![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/d17c4e55-9d9a-4cad-8e9b-f2e195852e94)
 
-3. General segmentation model
+2. General segmentation model
    
 ![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/ad45589c-c5f1-4cef-a6b3-71104b7aec2d)
 
-5. sotor segmentation model
+3. sotor segmentation model
    
 ![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/0c92d4dc-b05c-4337-81a9-f204b72c8417)
 
