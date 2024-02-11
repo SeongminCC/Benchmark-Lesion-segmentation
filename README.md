@@ -14,7 +14,7 @@ Inho Jeong, Donghyeon Kim, Seongmin Jo, Hongryul Ahn. (2022).
 We decide datasets based on the bellow criteria.   
 
 1. scar/wound image   
-[ISIC-2017]()   
+[ISIC-2017](https://challenge.isic-archive.com/data/#2017)   
 [Foot Ulcer]()   
 2. endoscopic image(polyp)   
 [CVC-ClinincDB]()   
