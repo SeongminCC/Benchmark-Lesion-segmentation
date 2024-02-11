@@ -28,7 +28,7 @@ We decide datasets based on the bellow criteria.
 We decide deep learning models based on the bellow criteria.   
 
 1. Medical segmentation model
-   - [UNet](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical﻿)
+   - [UNet](https://paperswithcode.com/paper/u-net-convolutional-networks-for-biomedical)
    - [UNet++](https://paperswithcode.com/paper/unet-a-nested-u-net-architecture-for-medical)
    - [ColonSegNet](https://paperswithcode.com/paper/real-time-polyp-detection-localisation-and)  
      
