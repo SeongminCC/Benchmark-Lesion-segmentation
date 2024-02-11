@@ -35,10 +35,16 @@ We decide deep learning models based on the bellow criteria.
   ![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/d17c4e55-9d9a-4cad-8e9b-f2e195852e94)
 
 2. General segmentation model
-   
+   - [DeeplabV3+](https://github.com/VainF/DeepLabV3Plus-Pytorch)
+   - [FCN](https://paperswithcode.com/method/fcn)
+   - [SegNet](https://paperswithcode.com/method/segnet)
+       
 ![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/ad45589c-c5f1-4cef-a6b3-71104b7aec2d)
 
 3. sotor segmentation model
-   
+   - [ColonFormer](https://paperswithcode.com/paper/colonformer-an-efficient-transformer-based)
+   - [ESFPNet](https://paperswithcode.com/paper/esfpnet-efficient-deep-learning-architecture)
+   - [FCBFormer](https://paperswithcode.com/paper/fcn-transformer-feature-fusion-for-polyp)
+       
 ![image](https://github.com/SeongminCC/Benchmark-Lesion-segmentation/assets/110529690/0c92d4dc-b05c-4337-81a9-f204b72c8417)
 
