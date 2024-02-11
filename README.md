@@ -5,7 +5,7 @@ When people who try to do lesion segmentation using deep learning model, It is d
 So, we compared 9 deep learning models on 6 medical datasets for lesion segmentations in this research.   
 If you want to know more about this research, refer to our paper 
 
-[Publication]   
+**[Publication]**  
 Inho Jeong, Donghyeon Kim, Seongmin Jo, Hongryul Ahn. (2022).   
 *Comparison of lesion segmentation deep learning models according to medical image types* 한국정보과학회 학술발표논문집,   
 [This paper was within Top 10% in KSC2022 Thesis Contest](https://drive.google.com/uc?export=view&id=1sGT-guA02QHs0Gaj1erwfZqFZ1QdMx0h)
